@@ -1,3 +1,53 @@
+//
+// Creating an object
+// Mutable data types in JavaScript, like objects and arrays, can be changed after they are made. You can add, remove, or modify their values and properties without starting from scratch. They're like editable containers that allow you to make updates easily.
+let person = {
+  name: "John",
+  age: 25,
+};
+
+// Modifying object properties
+person.age = 26;
+person.gender = "Male";
+
+console.log(person);
+// Output: { name: 'John', age: 26, gender: 'Male' }
+
+// Creating an array
+let fruits = ["apple", "banana", "cherry"];
+
+// Modifying array elements
+fruits[1] = "orange";
+fruits.push("grape");
+
+console.log(fruits);
+// Output: ['apple', 'orange', 'cherry', 'grape']
+
+// Immutable data types in JavaScript, like strings and numbers, cannot be changed once they are set. You can't directly modify them, but you can create new versions with the changes you want
+// Creating a string
+let greeting = "Hello";
+
+// Modifying the string
+let newGreeting = greeting + ", world!";
+
+console.log(greeting);
+// Output: Hello
+
+console.log(newGreeting);
+// Output: Hello, world!
+
+// Creating a number
+let x = 5;
+
+// Modifying the number
+let y = x + 3;
+
+console.log(x);
+// Output: 5
+
+console.log(y);
+// Output: 8
+
 // let Name = "damilola";
 // let second_name = "Sanni";
 // let otherValue = Name.toUpperCase();
